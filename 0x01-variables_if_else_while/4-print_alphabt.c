@@ -2,14 +2,15 @@
 #include <stdlib.h>
 
 /**
-*main -prints the alphabet
-*
-*Return :0
-*/
+  *main -prints the alphabet
+  *
+  *Return :0
+  */
 
 int main(void)
 {
         char letter = 'a';
+
         while (letter != 'z' + 1)
         {
 	        if (letter == 'q' || letter == 'e')
@@ -19,6 +20,7 @@ int main(void)
 		else 
 		{
 		         putchar(letter);
+			 letter++;
 		}
 	}
         putchar('\n');
