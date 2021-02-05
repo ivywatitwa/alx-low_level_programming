@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-  *main-programming starts here
-  *Return:0
-  *Description:Outputs size of 
+  *main-outputs size of
+  *
+  *Return 0 on success 
   */ 
 int main(void)
 {
