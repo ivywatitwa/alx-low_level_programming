@@ -1,19 +1,21 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
-*main-print numbers
+* main - Prints the digits of the decimal number system using putchar
 *
-*Return : 0
+* Return: 0 when code executes succesfully
 */
 
 int main(void)
 {
-        int a;
-        for (a = 0; a < 10; a++)
+	int a = 0;
+
+	for (a = 0; a < 10; a++)
 	{
-                putchar(a + '0');
+		putchar(a + '0');
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
+

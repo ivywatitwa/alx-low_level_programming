@@ -1,23 +1,23 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
-*main-prints hex decimal system
+* main - Prints the digits of the hex number system using putchar
 *
-*Return 0 on success
+* Return: 0 when code executes succesfully
 */
 
 int main(void)
 {
-        int nums, alphas, i;
-        for (nums = 48, i = 0; i < 10; nums++, i++)
+	int nums, alphas, i;
+
+	for (nums = 48, i = 0; i < 10; nums++, i++)
 	{
-	        putchar(nums);
+		putchar(nums);
 	}
 	for (alphas = 97, i = 0; i < 6; alphas++, i++)
-	{
-	        putchar(alphas);
-	}
-        putchar('\n');
-        return (0);
+		putchar(alphas);
+	putchar('\n');
+	return (0);
 }
+

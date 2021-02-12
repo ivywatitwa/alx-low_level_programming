@@ -1,28 +1,29 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
-  *main -prints the alphabet
-  *
-  *Return :0
-  */
+* main - Prints the alphabet
+*
+* Return: 0 when code executes succesfully
+*/
 
 int main(void)
 {
-        char letter = 'a';
+	char letter = 'a';
 
-        while (letter != 'z' + 1)
-        {
-	        if (letter == 'q' || letter == 'e')
+	while (letter !=  'z' + 1)
+	{
+		if (letter == 'q' || letter == 'e')
 		{
-		        letter++;
+			letter++;
 		}
-		else 
+		else
 		{
-		         putchar(letter);
-			 letter++;
+			putchar(letter);
+			letter++;
 		}
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
+

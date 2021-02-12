@@ -1,20 +1,22 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
-  *main-prints the alphabet
-  *
-  *return o on success
-  */
+* main - Prints the alphabet
+*
+* Return: 0 when code executes succesfully
+*/
+
 int main(void)
 {
-        char letter = 'a';
+	char letter = 'a';
 
-        while (letter != 'z' + 1)
-        { 
-                putchar(letter);
-                letter++;
-        }
-        putchar('\n');
-        return (0);
+	while (letter !=  'z' + 1)
+	{
+		putchar(letter);
+		letter++;
+	}
+	putchar('\n');
+	return (0);
 }
+
