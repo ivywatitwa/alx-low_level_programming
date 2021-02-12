@@ -1,21 +1,20 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet in reverse
-*
-* Return: 0 when code executes succesfully
-*/
-
+ * main - entry point
+ *Description: reverse alpha
+ * Return: 0
+ */
 int main(void)
 {
-	char letter = 'z';
+	char z = 'z';
 
-	while (letter !=  'a' - 1)
+	while (z >= 'a')
 	{
-		putchar(letter);
-		letter--;
+		putchar(z);
+		z--;
 	}
+
 	putchar('\n');
 	return (0);
 }
