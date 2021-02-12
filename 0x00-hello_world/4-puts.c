@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
-  *main - Outputs texts
+  *main-runs teh main code
   *
-  *Return: 0 on success
+  *Return: 0 if program completes
   */
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
-        return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
+
